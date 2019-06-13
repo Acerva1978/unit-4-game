@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+<body background="assets/images/dark_embroidery.png">
+    
+<div class="conteiner">
+      <div class="row ml-2">
+           <div class="col-lg-4 card m-2 ml-4 bg-warning text-white">
+            <h1>CrystalsCollector!</h1>
+           </div>
+      </div>
+
+      
+           <div class="row ml-2">
+            <div class="col-md-6 card m-2 ml-4 p-3 bg-muted text-success font-weight-bold">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystla you
+               will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to random
+                   number, you lose the game if your total score goes above
+                   the random number 
+                </p>
+               <p>The value of each crystal is hidden from you until you
+                    click on it.
+                </p>
+               <p>Each time when the game starts, the game will change
+                   values of each crystal 
+                </p>
+            </div>
+           </div>
+
+      
+        <div class="row ml-2">
+           <div class="col-lg-3 card m-2 ml-4 bg-info" style="height: 150px;">
+                <h1 class="result"></h1>
+           </div>
+             <div class="col-lg-2 ml-5 mt-2 pt-2 card bg-danger" style="height: 150px;">
+                    <span class="youWins"></span>
+                    <span class="youLossesins"></span>
+               <h3 class="p-2">Wins:<span class="wins"></span></h3>
+               <h3 class="p-2">Losses:<span class="lost"></span></h3>
+             </div>
+        </div>
+
+      
+         <div class="row card m-2 ml-4 bg-dark" style="height: 150px;">
+             
+            <div id="empty-div"></div>
+          
+        </div>
+
+         <div class="row">  
+                <div class="col">
+                    <div class="col-lg-3 ml-4 mt-2 pt-2 card bg-primary" style="height: 50px;">
+                        <h3>Your total score is:</h3>
+                        </div>
+         
+                </div>
+         </div>
+
+         <div class="row">  
+                <div class="col">
+                    <div class="col-lg-3 card m-2 ml-4 bg-info" style="height: 150px;">
+                      <h1 class="previous"></h1>
+                   </div>
+                </div>
+         </div>
+</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+
+#empty-div{
+    display: flex;
+    justify-content: space-around;
+    aligh-items: center;
+   
+}
+
+.game{
+    height: 150px;
+    width: 150px;
+}
